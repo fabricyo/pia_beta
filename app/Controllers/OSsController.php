@@ -62,7 +62,8 @@ class OSsController extends BaseController
 
     public function edit($id = 0)
     {
-        $data['os'] = (new OSs)->find($id);;
+        $data['os'] = (new OSs)->find($id);
+        load_libs(['form_utils']);
         load_view('oss/edit', $data);
     }
 
@@ -76,20 +77,21 @@ class OSsController extends BaseController
         ]);
         if (!$input) {
             setSystemMsg("danger", "Corrija os erros nas informações");
-            return redirect()->to('/podas/edit/' . $id)->withInput()->with('validation', $this->validator);
+            return redirect()->to('/oss/edit/' . $id)->withInput()->with('validation', $this->validator);
         } else {
-            $cols = ['os', 'tipo', 'quantidade', 'especie', 'alt_arv', 'alt_poda', 'diametro', 'intensidade', 'local'];
+            $cols = ['numero', 'nome_vistoriador'];
             $data = [];
             foreach ($cols as $c) {
                 $data[$c] = $this->request->getVar($c);
             }
+            $data['dt_vistoria'] = dateSwap($this->request->getVar('dt_vistoria'));
             ## Update record
-            if ((new Podas())->update($id, $data)) {
-                setSystemMsg('success', "Poda atualizada com sucesso!");
-                return redirect()->to('/podas/details/' . $id);
+            if ((new OSs())->update($id, $data)) {
+                setSystemMsg('success', "Ordem de Serviço atualizada com sucesso!");
+                return redirect()->to('/oss/details/' . $id);
             } else {
-                setSystemMsg("danger", "Não foi possível editar a poda");
-                return redirect()->route('podas/edit/' . $id)->withInput();
+                setSystemMsg("danger", "Não foi possível editar a Ordem de Serviço");
+                return redirect()->route('oss/edit/' . $id)->withInput();
             }
         }
     }
