@@ -35,19 +35,7 @@
 
 <script>
     window.addEventListener("load", function () {
-        //Popular
-        let select_especie = $('#especie');
-        select_especie.empty();
-        $.getJSON('<?=base_url("tipos_arvore.json");?>', function (data) {
-            $.each(data, function (key, entry) {
-                const tipo = `${entry.nome_popular} - ${entry.nome}`;
-                select_especie.append($('<option></option>').attr('value', tipo).text(tipo));
-            })
-        });
-
         $("#numero").mask("00000/2000");
-        $("#quantidade").mask("0000");
-
         $('#dt_vistoria').pickadate({
             format: 'dd/mm/yyyy'
         });
