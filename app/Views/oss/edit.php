@@ -13,7 +13,7 @@
                     <div class="col-md-6">
                         <div class="col-md-6 md-form">
                             <label for="dt_vistoria" class="ml-0">Data da vistoria</label>
-                            <input type="date" id="dt_vistoria" name="dt_vistoria"
+                            <input type="text" id="dt_vistoria" name="dt_vistoria"
                                    class="form-control form-control-sm" value="<?= old('dt_vistoria', dateSwap($os->dt_vistoria)); ?>">
                             <?= show_error('dt_vistoria') ?>
                         </div>
