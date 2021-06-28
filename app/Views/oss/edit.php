@@ -2,7 +2,7 @@
     <div class="card animated fadeIn">
         <h5 class="card-header green darken-4 white-text">Formulário para cadastrar Ordem de Serviço</h5>
         <div class="card-body text-justify green lighten-5">
-            <form action="<?= base_url('oss/update'.$os->id) ?>" method="post" class="py-4">
+            <form action="<?= base_url('oss/update/'.$os->id) ?>" method="post" class="py-4">
                 <div class="row mx-2 clearfix">
                     <div class="col-md-6 md-form mb-0">
                         <label for="numero" class="ml-0">Número da Ordem de Serviço</label>
