@@ -1,0 +1,47 @@
+.picker__holder {
+    background: #3a3731;
+}
+.picker__header {
+    color: #fff!important;
+}
+
+.picker__month,
+.picker__year {
+    color: #fff!important;}
+
+.picker__nav--prev:hover,
+.picker__nav--next:hover {
+    color: #fff;}
+
+.picker__day {
+    color: #fff!important;}
+
+.picker__button--today:hover,
+.picker__button--clear:hover,
+.picker__button--close:hover {
+    background: greenyellow;
+    border-bottom-color: greenyellow;
+}
+
+.picker__day--infocus:hover,
+.picker__day--outfocus:hover {
+    background: green;
+}
+
+.picker__day--highlighted:hover,
+.picker--focused .picker__day--highlighted {
+    background: green;
+}
+
+.picker__day--disabled,
+.picker__day--disabled:hover,
+.picker--focused .picker__day--disabled {
+    background: grey;
+    border-color: grey;
+    color: grey;
+    cursor: default;
+}
+
+.picker--time .picker__holder {
+    background: #3a3731;
+}

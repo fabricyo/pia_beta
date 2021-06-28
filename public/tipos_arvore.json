@@ -1,0 +1,1738 @@
+[
+  {
+    "nome_popular": "abacateiro",
+    "nome": "Persea americana"
+  },
+  {
+    "nome_popular": "abiorama",
+    "nome": "Lucuma laciocarpa"
+  },
+  {
+    "nome_popular": "abiorana",
+    "nome": "Micropholis sp."
+  },
+  {
+    "nome_popular": "abiorana da mata",
+    "nome": "Micropholis sp."
+  },
+  {
+    "nome_popular": "abiorana da várzea",
+    "nome": "Lucuma lasiocarpa"
+  },
+  {
+    "nome_popular": "abiu",
+    "nome": "Pouteria ramiflora"
+  },
+  {
+    "nome_popular": "abricó de macaco",
+    "nome": "Couroupita guianensis"
+  },
+  {
+    "nome_popular": "acácia / esponjinha",
+    "nome": "Vachellia seyal"
+  },
+  {
+    "nome_popular": "acácia negra",
+    "nome": "Acacia mearnsi"
+  },
+  {
+    "nome_popular": "açaí",
+    "nome": "Euterpe oleracea"
+  },
+  {
+    "nome_popular": "acaju",
+    "nome": "Anacardium occidentale"
+  },
+  {
+    "nome_popular": "aceroleira",
+    "nome": "Malpighia emarginata"
+  },
+  {
+    "nome_popular": "açoita cavalo",
+    "nome": "Luehea grandiflora"
+  },
+  {
+    "nome_popular": "agave",
+    "nome": "Agave angustifolia"
+  },
+  {
+    "nome_popular": "albizia",
+    "nome": "Albizia lebbeck"
+  },
+  {
+    "nome_popular": "alecrim",
+    "nome": "Holocalyx glaziovii"
+  },
+  {
+    "nome_popular": "alecrim de campinas",
+    "nome": "Holocalyx balansae"
+  },
+  {
+    "nome_popular": "alfeneiro",
+    "nome": "Ligustrum lucidum"
+  },
+  {
+    "nome_popular": "algodoeiro de praia",
+    "nome": "Hicuscus tiliaceae"
+  },
+  {
+    "nome_popular": "ameixa do japão",
+    "nome": "Eriobotrya japonica"
+  },
+  {
+    "nome_popular": "ameixeira",
+    "nome": "Prunus domestica"
+  },
+  {
+    "nome_popular": "amêndoa",
+    "nome": "Prunus dulcis"
+  },
+  {
+    "nome_popular": "amendoeira",
+    "nome": "Prunus dulcis"
+  },
+  {
+    "nome_popular": "amendoeira da praia",
+    "nome": "Terminalia catappa"
+  },
+  {
+    "nome_popular": "amendoim bravo",
+    "nome": "Pterogyne nitens"
+  },
+  {
+    "nome_popular": "amoreira",
+    "nome": "Morus nigra"
+  },
+  {
+    "nome_popular": "amoreira preta",
+    "nome": "Morus nigra"
+  },
+  {
+    "nome_popular": "andá assu",
+    "nome": "Joannesia princeps"
+  },
+  {
+    "nome_popular": "angico",
+    "nome": "Anadenanthera colubrina"
+  },
+  {
+    "nome_popular": "angico branco",
+    "nome": "Anadenanthera colubrina"
+  },
+  {
+    "nome_popular": "angico jacaré",
+    "nome": "Piptadenia gonoacantha"
+  },
+  {
+    "nome_popular": "angico vermelho",
+    "nome": "Anadenanthera macrocarpa"
+  },
+  {
+    "nome_popular": "araçá goiaba",
+    "nome": "Psidium guajava"
+  },
+  {
+    "nome_popular": "arália cortina",
+    "nome": "Polyscias guilfoylei"
+  },
+  {
+    "nome_popular": "araribá",
+    "nome": "Centrolobium tomentosum"
+  },
+  {
+    "nome_popular": "araticum",
+    "nome": "Annona ermaginata"
+  },
+  {
+    "nome_popular": "araucauria excelsa",
+    "nome": "Araucaria heterophylla"
+  },
+  {
+    "nome_popular": "arbusto",
+    "nome": "Buxus sempervirens"
+  },
+  {
+    "nome_popular": "areca bambu",
+    "nome": "Dypsis lutescens"
+  },
+  {
+    "nome_popular": "aroeira",
+    "nome": "Myracrodruon urundeuva"
+  },
+  {
+    "nome_popular": "aroeira pimenteira",
+    "nome": "Schinus terebinthifolia"
+  },
+  {
+    "nome_popular": "aroeira salsa",
+    "nome": "Schinus molle"
+  },
+  {
+    "nome_popular": "aroeira vermelha",
+    "nome": "Schinus terebinthifolius"
+  },
+  {
+    "nome_popular": "árvore da felicidade",
+    "nome": "Polyscias guilfoylei"
+  },
+  {
+    "nome_popular": "assa peixe",
+    "nome": "Vernonia polysphaera"
+  },
+  {
+    "nome_popular": "ata",
+    "nome": "Annona squamosa"
+  },
+  {
+    "nome_popular": "ateira",
+    "nome": "Annona squamosa"
+  },
+  {
+    "nome_popular": "avelós",
+    "nome": "Euphorbia tirucalli"
+  },
+  {
+    "nome_popular": "bálsamo",
+    "nome": "Myroxylon peruiferum"
+  },
+  {
+    "nome_popular": "bambú",
+    "nome": "Bambuseae "
+  },
+  {
+    "nome_popular": "bananeira",
+    "nome": "Musa sp."
+  },
+  {
+    "nome_popular": "barbatimão",
+    "nome": "Stryphnodendron adstringens"
+  },
+  {
+    "nome_popular": "barriguda",
+    "nome": "Ceiba speciosa"
+  },
+  {
+    "nome_popular": "baru",
+    "nome": "Dipteryx alata"
+  },
+  {
+    "nome_popular": "bate caixa",
+    "nome": "Palicourea rigida"
+  },
+  {
+    "nome_popular": "bergamota",
+    "nome": "Citrus bergamia"
+  },
+  {
+    "nome_popular": "berreiro",
+    "nome": "Machaerium hirtum"
+  },
+  {
+    "nome_popular": "bico de papagaio",
+    "nome": "Euphorbia pulcherrima"
+  },
+  {
+    "nome_popular": "bordão de velho",
+    "nome": "Samanea tubulo"
+  },
+  {
+    "nome_popular": "bouganvilea",
+    "nome": "Bougainvillea glabra"
+  },
+  {
+    "nome_popular": "bouganville",
+    "nome": "Bougainvillea sp."
+  },
+  {
+    "nome_popular": "brauna",
+    "nome": "Schinopsis brasilenses"
+  },
+  {
+    "nome_popular": "brinco d'água",
+    "nome": "Ferdinandusa elíptica"
+  },
+  {
+    "nome_popular": "buriti",
+    "nome": "Maurita flexuosa"
+  },
+  {
+    "nome_popular": "buritirama",
+    "nome": "Mauritiella aculeata"
+  },
+  {
+    "nome_popular": "cabelo de negro",
+    "nome": "Erythroxylum suberosum"
+  },
+  {
+    "nome_popular": "cabreúva",
+    "nome": "Myroxylon balsamum"
+  },
+  {
+    "nome_popular": "cacau",
+    "nome": "Theobroma cacao"
+  },
+  {
+    "nome_popular": "cafeeiro",
+    "nome": "Coffea sp."
+  },
+  {
+    "nome_popular": "cafezeiro do mato",
+    "nome": "Casearia arborea"
+  },
+  {
+    "nome_popular": "cagaita",
+    "nome": "Eugenia dysenterica"
+  },
+  {
+    "nome_popular": "cagaiteira",
+    "nome": "Eugenia dysenterica"
+  },
+  {
+    "nome_popular": "caixeta",
+    "nome": "Tabebuia cassinoides"
+  },
+  {
+    "nome_popular": "cajá manga",
+    "nome": "Spondias dulcis"
+  },
+  {
+    "nome_popular": "cajazeira",
+    "nome": "Spondias mombin"
+  },
+  {
+    "nome_popular": "cajueiro",
+    "nome": "Anacardium occidentale"
+  },
+  {
+    "nome_popular": "calabura",
+    "nome": "Muntingia calabura"
+  },
+  {
+    "nome_popular": "calabura/mutija",
+    "nome": "Muntingia calabura"
+  },
+  {
+    "nome_popular": "caliandra",
+    "nome": "Calliandra harrisii"
+  },
+  {
+    "nome_popular": "calistemo",
+    "nome": "Callistemon viminalis"
+  },
+  {
+    "nome_popular": "camareira",
+    "nome": "Ocimum basilicum"
+  },
+  {
+    "nome_popular": "camboatâ branco",
+    "nome": "Mataybajuglandiofolio "
+  },
+  {
+    "nome_popular": "cambuí",
+    "nome": "Peltophorum dubium"
+  },
+  {
+    "nome_popular": "canela",
+    "nome": "Cinnamomum zeylanicum"
+  },
+  {
+    "nome_popular": "canzileiro",
+    "nome": "Platypodium elegans"
+  },
+  {
+    "nome_popular": "caparosa",
+    "nome": "Guapira noxia"
+  },
+  {
+    "nome_popular": "capitão do campo",
+    "nome": "Terminalia argenta"
+  },
+  {
+    "nome_popular": "caqui",
+    "nome": "Diospyros kaki"
+  },
+  {
+    "nome_popular": "caraíba",
+    "nome": "Tabebuia aurea"
+  },
+  {
+    "nome_popular": "carambola",
+    "nome": "Averrhoa carambola"
+  },
+  {
+    "nome_popular": "carnaúba",
+    "nome": "Copernicia prunifera"
+  },
+  {
+    "nome_popular": "carne de vaca",
+    "nome": "Roupala montana"
+  },
+  {
+    "nome_popular": "carvoeiro da mata",
+    "nome": "Tachigali subvelutina"
+  },
+  {
+    "nome_popular": "cássia",
+    "nome": "Cassia fistula"
+  },
+  {
+    "nome_popular": "cássia de flor amarela",
+    "nome": "Cassia sp."
+  },
+  {
+    "nome_popular": "cássia rosa",
+    "nome": "Cassia grandis"
+  },
+  {
+    "nome_popular": "castanheira",
+    "nome": "Bertholletia excelsa"
+  },
+  {
+    "nome_popular": "castanheira da praia",
+    "nome": "Terminalia sericocarpa"
+  },
+  {
+    "nome_popular": "casuarina",
+    "nome": "Casuarina equisetifolia"
+  },
+  {
+    "nome_popular": "cedro",
+    "nome": "Cedrela fissilis"
+  },
+  {
+    "nome_popular": "champaca",
+    "nome": "Michelia champaca"
+  },
+  {
+    "nome_popular": "cheflera",
+    "nome": "Schefflera arboricola"
+  },
+  {
+    "nome_popular": "chichá",
+    "nome": "Sterculia chicha"
+  },
+  {
+    "nome_popular": "senna",
+    "nome": "Senna multijuga"
+  },
+  {
+    "nome_popular": "pau cigarra",
+    "nome": "Senna multijuga"
+  },
+  {
+    "nome_popular": "chuva de ouro",
+    "nome": "Lophantera lactens"
+  },
+  {
+    "nome_popular": "cica",
+    "nome": "Cicas revoluta"
+  },
+  {
+    "nome_popular": "cinamomo",
+    "nome": "Melia azedarach"
+  },
+  {
+    "nome_popular": "cinzeiro",
+    "nome": "Leucaena leucocephala"
+  },
+  {
+    "nome_popular": "cipreste",
+    "nome": "Cupressus sempervirens"
+  },
+  {
+    "nome_popular": "ciriguela",
+    "nome": "Spondias purpurea"
+  },
+  {
+    "nome_popular": "citrus",
+    "nome": "Citrus sp."
+  },
+  {
+    "nome_popular": "clitória",
+    "nome": "Clitoria fairchildiana"
+  },
+  {
+    "nome_popular": "clúsia",
+    "nome": "Clusia sp."
+  },
+  {
+    "nome_popular": "copaíba",
+    "nome": "Copaifera langsdorffii"
+  },
+  {
+    "nome_popular": "coqueiro",
+    "nome": "Cocos nucifera"
+  },
+  {
+    "nome_popular": "coqueiro da bahia",
+    "nome": "Cocos nucifera"
+  },
+  {
+    "nome_popular": "coração de negro",
+    "nome": "Piptocarpha rotundifolia"
+  },
+  {
+    "nome_popular": "croton",
+    "nome": "Codiaeum variegatum"
+  },
+  {
+    "nome_popular": "cuiarama",
+    "nome": "Couroupita guianensis"
+  },
+  {
+    "nome_popular": "cumbuca de macaco",
+    "nome": "Lecythis pisonis"
+  },
+  {
+    "nome_popular": "curriola",
+    "nome": "Pouteria ramiflora"
+  },
+  {
+    "nome_popular": "cutieira",
+    "nome": "Joannesia princeps"
+  },
+  {
+    "nome_popular": "dama da noite",
+    "nome": "Cestrum nocturnum"
+  },
+  {
+    "nome_popular": "dilenia",
+    "nome": "Indica "
+  },
+  {
+    "nome_popular": "dracena",
+    "nome": "Dracaena "
+  },
+  {
+    "nome_popular": "duranta",
+    "nome": "Duranta repens"
+  },
+  {
+    "nome_popular": "embaúba",
+    "nome": "Cecropia adenopus"
+  },
+  {
+    "nome_popular": "embiruçú",
+    "nome": "Pseudobombax longiflorum"
+  },
+  {
+    "nome_popular": "embiruçú peludo",
+    "nome": "Pseudobombax tomentosum"
+  },
+  {
+    "nome_popular": "escova de garrafa",
+    "nome": "Callistemon viminalis"
+  },
+  {
+    "nome_popular": "espatódea",
+    "nome": "Spathodea campanulata"
+  },
+  {
+    "nome_popular": "espinilho",
+    "nome": "Acacia farnesiana"
+  },
+  {
+    "nome_popular": "espirradeira",
+    "nome": "Nerium oleander"
+  },
+  {
+    "nome_popular": "esponjinha",
+    "nome": "Acacia farnesiana"
+  },
+  {
+    "nome_popular": "eucalipto",
+    "nome": "Eucalyptus sp."
+  },
+  {
+    "nome_popular": "eucalipto argentino",
+    "nome": "Eucalyptus cinerea"
+  },
+  {
+    "nome_popular": "extremosa",
+    "nome": "Lagerstroemia indica"
+  },
+  {
+    "nome_popular": "ráfia",
+    "nome": "Rhapis excelsa"
+  },
+  {
+    "nome_popular": "falso chorão",
+    "nome": "Schinus molle"
+  },
+  {
+    "nome_popular": "falso mangustão",
+    "nome": "Garcinia cochinchinrnsis"
+  },
+  {
+    "nome_popular": "falso pau brasil",
+    "nome": "Caesalpinia tinctoria"
+  },
+  {
+    "nome_popular": "farinha seca",
+    "nome": "Albizia niopoides"
+  },
+  {
+    "nome_popular": "fava de bolota",
+    "nome": "Parkia pendula"
+  },
+  {
+    "nome_popular": "faveira",
+    "nome": "Dimorphandra mollis"
+  },
+  {
+    "nome_popular": "faveira de bolota",
+    "nome": "Parkia platycephala"
+  },
+  {
+    "nome_popular": "faveira do campo",
+    "nome": "Dimorphandra mollis"
+  },
+  {
+    "nome_popular": "faveiro",
+    "nome": "Peltophorum dubium"
+  },
+  {
+    "nome_popular": "falso babatimão",
+    "nome": "Dimorphandra mollis"
+  },
+  {
+    "nome_popular": "favela",
+    "nome": "Dimorphandra mollis"
+  },
+  {
+    "nome_popular": "ficus",
+    "nome": "Ficus auriculata"
+  },
+  {
+    "nome_popular": "ficus benjamina",
+    "nome": "Ficus benjamina"
+  },
+  {
+    "nome_popular": "ficus italiano",
+    "nome": "Ficus elastica"
+  },
+  {
+    "nome_popular": "ficus lyrata",
+    "nome": "Ficus lyrata"
+  },
+  {
+    "nome_popular": "figueira",
+    "nome": "Ficus microcarpa"
+  },
+  {
+    "nome_popular": "figueira benjamina",
+    "nome": "Ficus benjamina"
+  },
+  {
+    "nome_popular": "figueira lacerdinha",
+    "nome": "Ficus microcarpa"
+  },
+  {
+    "nome_popular": "fisocalima",
+    "nome": "Physocalymma scaberrimum"
+  },
+  {
+    "nome_popular": "flamboianzinho",
+    "nome": "Caesalpinia pulcherrima"
+  },
+  {
+    "nome_popular": "flamboyant",
+    "nome": "Delonix regia"
+  },
+  {
+    "nome_popular": "flamboyant anão",
+    "nome": "Caesalpinia pulcherrima"
+  },
+  {
+    "nome_popular": "flamboyant de jardim",
+    "nome": "Caesalpinia pulcherrima"
+  },
+  {
+    "nome_popular": "freijó",
+    "nome": "Cordia trichotoma"
+  },
+  {
+    "nome_popular": "fruta de pomba",
+    "nome": "Dimorphandra mollis"
+  },
+  {
+    "nome_popular": "fruta de pombo",
+    "nome": "Erythroxyium daphnites"
+  },
+  {
+    "nome_popular": "gameleira",
+    "nome": "Ficus doliaria"
+  },
+  {
+    "nome_popular": "garapa",
+    "nome": "Apuleia leiocarpa"
+  },
+  {
+    "nome_popular": "genipapo",
+    "nome": "Genipa americana"
+  },
+  {
+    "nome_popular": "gmelina",
+    "nome": "Gmelina arborea"
+  },
+  {
+    "nome_popular": "goiabeira",
+    "nome": "Psidium guajava"
+  },
+  {
+    "nome_popular": "gomeira",
+    "nome": "Vochysia thyrsoidea"
+  },
+  {
+    "nome_popular": "gonçalo alves",
+    "nome": "Astronium fraxinifolium"
+  },
+  {
+    "nome_popular": "grão de galo",
+    "nome": "Pouteria torta"
+  },
+  {
+    "nome_popular": "gravioleira",
+    "nome": "Annona muricata"
+  },
+  {
+    "nome_popular": "graviola",
+    "nome": "Annona muricata"
+  },
+  {
+    "nome_popular": "grevílea",
+    "nome": "Grevillea banksii"
+  },
+  {
+    "nome_popular": "grevílea arbórea",
+    "nome": "Grevillea robusta"
+  },
+  {
+    "nome_popular": "guanandi",
+    "nome": "Calophyllum brasiliense"
+  },
+  {
+    "nome_popular": "guapuruvú",
+    "nome": "Schizolobium parahyba"
+  },
+  {
+    "nome_popular": "guarantã",
+    "nome": "Esenbeckia leiocarpa"
+  },
+  {
+    "nome_popular": "guarda sol",
+    "nome": "Schefflera actinophylla"
+  },
+  {
+    "nome_popular": "guariroba",
+    "nome": "Syagrus oleracea"
+  },
+  {
+    "nome_popular": "gueroba",
+    "nome": "Syagrus oleracea"
+  },
+  {
+    "nome_popular": "hibisco",
+    "nome": "Hibiscus sp."
+  },
+  {
+    "nome_popular": "ibira puita guassú",
+    "nome": "Peltophorum dubium"
+  },
+  {
+    "nome_popular": "imbaúba",
+    "nome": "Cecropia adenopus"
+  },
+  {
+    "nome_popular": "imbiruçu",
+    "nome": "Pseudobombax longiflorum"
+  },
+  {
+    "nome_popular": "imburana",
+    "nome": "Amburana cearensis"
+  },
+  {
+    "nome_popular": "ingá",
+    "nome": "Inga marginata"
+  },
+  {
+    "nome_popular": "ingá colar",
+    "nome": "Inga marginata"
+  },
+  {
+    "nome_popular": "ingá feijão",
+    "nome": "Inga laurina"
+  },
+  {
+    "nome_popular": "ingá mirim",
+    "nome": "Inga fagifolia"
+  },
+  {
+    "nome_popular": "inga sp",
+    "nome": "Inga sp."
+  },
+  {
+    "nome_popular": "ipê",
+    "nome": "Tabebuia sp."
+  },
+  {
+    "nome_popular": "ipê amarelo",
+    "nome": "Handroanthus serratifolius"
+  },
+  {
+    "nome_popular": "ipê amarelo do cerrado",
+    "nome": "Tabebuia aurea"
+  },
+  {
+    "nome_popular": "ipê amarelo peludo",
+    "nome": "Handroanthus chrysotricha"
+  },
+  {
+    "nome_popular": "ipê branco",
+    "nome": "Tabebuia roseoalba"
+  },
+  {
+    "nome_popular": "ipê caraíba",
+    "nome": "Tabebuia aurea"
+  },
+  {
+    "nome_popular": "ipê de jardim",
+    "nome": "Tecoma stans"
+  },
+  {
+    "nome_popular": "ipê do cerrado",
+    "nome": "Handroanthus ochraceus"
+  },
+  {
+    "nome_popular": "ipê peludo",
+    "nome": "Tabebuia chrysotrcha"
+  },
+  {
+    "nome_popular": "ipê rosa",
+    "nome": "Tabebuia rosea"
+  },
+  {
+    "nome_popular": "ipê roxo",
+    "nome": "Handroanthus impetiginosus"
+  },
+  {
+    "nome_popular": "ipê roxo de sete folhas",
+    "nome": "Tabebuia heptaphylla"
+  },
+  {
+    "nome_popular": "ipê tabaco",
+    "nome": "Tabebuia chrysotricha"
+  },
+  {
+    "nome_popular": "ipê verde",
+    "nome": "Cybistax antisyphilitica"
+  },
+  {
+    "nome_popular": "jaborandi",
+    "nome": "Pilocarpus microphyllus"
+  },
+  {
+    "nome_popular": "jaboticabeira",
+    "nome": "Myrciaria jaboticaba"
+  },
+  {
+    "nome_popular": "jacarandá do cerrado",
+    "nome": "Dalbergia miscolobium"
+  },
+  {
+    "nome_popular": "jacarandá cascudo",
+    "nome": "Machearim opacum"
+  },
+  {
+    "nome_popular": "jacarandá da bahia",
+    "nome": "Dalbergia nigra"
+  },
+  {
+    "nome_popular": "jacarandá mimoso",
+    "nome": "Jacaranda mimosaefolia"
+  },
+  {
+    "nome_popular": "jacaranda muchiba",
+    "nome": "Machaerium opacum"
+  },
+  {
+    "nome_popular": "jacarandá preto",
+    "nome": "Dalbergia nigra"
+  },
+  {
+    "nome_popular": "jacaré",
+    "nome": "Piptadenia gonoacantha"
+  },
+  {
+    "nome_popular": "jambo",
+    "nome": "Eugenia jambos"
+  },
+  {
+    "nome_popular": "jambo amarelo",
+    "nome": "Eugenia jambos"
+  },
+  {
+    "nome_popular": "jambo da malásia",
+    "nome": "Syzigium malaccensis"
+  },
+  {
+    "nome_popular": "jambolão",
+    "nome": "Syzygium jambolanum"
+  },
+  {
+    "nome_popular": "jambolão (folha estreita)",
+    "nome": "Syzygium cumini"
+  },
+  {
+    "nome_popular": "jambo vermelho",
+    "nome": "Syzygium malaccense"
+  },
+  {
+    "nome_popular": "jamelão",
+    "nome": "Syzygium cumini"
+  },
+  {
+    "nome_popular": "gamelina",
+    "nome": "Gmelina arborea"
+  },
+  {
+    "nome_popular": "jaqueira",
+    "nome": "Artocarpus heterophyllus"
+  },
+  {
+    "nome_popular": "jasmin",
+    "nome": "Plumeria rubra"
+  },
+  {
+    "nome_popular": "jatobá da mata",
+    "nome": "Hymenaea coubaril"
+  },
+  {
+    "nome_popular": "jatobá do campo",
+    "nome": "Hymenaea stigonocarpa"
+  },
+  {
+    "nome_popular": "jatobá do cerrado",
+    "nome": "Hymenaea stigonocarpa"
+  },
+  {
+    "nome_popular": "jenipapeiro",
+    "nome": "Genipa americana"
+  },
+  {
+    "nome_popular": "jenipapo",
+    "nome": "Genipa americana"
+  },
+  {
+    "nome_popular": "jequitibá",
+    "nome": "Cariniana estrellensis"
+  },
+  {
+    "nome_popular": "jequitibá vermelho",
+    "nome": "Cariniana rubra"
+  },
+  {
+    "nome_popular": "jerivá",
+    "nome": "Syagrus romanzoffiana"
+  },
+  {
+    "nome_popular": "juazeiro",
+    "nome": "Ziziphus joazeiro"
+  },
+  {
+    "nome_popular": "jucá",
+    "nome": "Caesalpinia ferrea"
+  },
+  {
+    "nome_popular": "jurema",
+    "nome": "Acacia jurema"
+  },
+  {
+    "nome_popular": "árvore da china",
+    "nome": "Koelreuteria bipinnata "
+  },
+  {
+    "nome_popular": "koelreuteria",
+    "nome": "Koelreuteria bipinnata "
+  },
+  {
+    "nome_popular": "kuntze",
+    "nome": "Araucaria angustifolia"
+  },
+  {
+    "nome_popular": "landim",
+    "nome": "Calophyllum brasiliensis"
+  },
+  {
+    "nome_popular": "lanterneira",
+    "nome": "Lophantera lactens"
+  },
+  {
+    "nome_popular": "laranjeira",
+    "nome": "Citrus sinensis"
+  },
+  {
+    "nome_popular": "laranjinha do cerrado",
+    "nome": "Styrax ferrugineus"
+  },
+  {
+    "nome_popular": "laranjinha do mato",
+    "nome": "Eugenia speciosa"
+  },
+  {
+    "nome_popular": "leucena",
+    "nome": "Leucena leucocephala"
+  },
+  {
+    "nome_popular": "ligustro",
+    "nome": "Ligustrum lucidum"
+  },
+  {
+    "nome_popular": "limão taiti",
+    "nome": "Citrus latifolia"
+  },
+  {
+    "nome_popular": "limoeiro",
+    "nome": "Citrus limon"
+  },
+  {
+    "nome_popular": "língua de sogra",
+    "nome": "Albizia lebeck"
+  },
+  {
+    "nome_popular": "lixeira",
+    "nome": "Curatella americana"
+  },
+  {
+    "nome_popular": "lixeirinha",
+    "nome": "Davilla elliptica"
+  },
+  {
+    "nome_popular": "lobeira",
+    "nome": "Solanum lycocarpum"
+  },
+  {
+    "nome_popular": "lofantera",
+    "nome": "Lophantera lactescens"
+  },
+  {
+    "nome_popular": "macaúba",
+    "nome": "Acrocomia aculeata"
+  },
+  {
+    "nome_popular": "magnólia",
+    "nome": "Michelia champaca"
+  },
+  {
+    "nome_popular": "magnólia amarela",
+    "nome": "Michelia champaca"
+  },
+  {
+    "nome_popular": "mamoeiro",
+    "nome": "Carica papaya"
+  },
+  {
+    "nome_popular": "mamona",
+    "nome": "Ricinus communis"
+  },
+  {
+    "nome_popular": "mamonarama",
+    "nome": "Pseudobombax longiflorum"
+  },
+  {
+    "nome_popular": "mandacarú",
+    "nome": "Cereus jamacuru"
+  },
+  {
+    "nome_popular": "mandiocão",
+    "nome": "Shefllera macrocarpa"
+  },
+  {
+    "nome_popular": "mandiocão do cerrado",
+    "nome": "Schefflera macrocarpa"
+  },
+  {
+    "nome_popular": "mangueira",
+    "nome": "Mangifera indica"
+  },
+  {
+    "nome_popular": "manga",
+    "nome": "Mangifera indica"
+  },
+  {
+    "nome_popular": "margarida do campo",
+    "nome": "Tibouchina aspera"
+  },
+  {
+    "nome_popular": "maria preta",
+    "nome": "Blepharocalyx salicifolia"
+  },
+  {
+    "nome_popular": "marinheiro",
+    "nome": "Guarea guidonia"
+  },
+  {
+    "nome_popular": "marmelada",
+    "nome": "Alibertia edulis"
+  },
+  {
+    "nome_popular": "mexerica",
+    "nome": "Citrus deliciosa"
+  },
+  {
+    "nome_popular": "milho de grilo",
+    "nome": "Aegiphila lhotzkiana"
+  },
+  {
+    "nome_popular": "mirindiba",
+    "nome": "Lafoensia glyptocarpa"
+  },
+  {
+    "nome_popular": "mogno",
+    "nome": "Swietenia macrophylla"
+  },
+  {
+    "nome_popular": "monguba",
+    "nome": "Pachira aquatica"
+  },
+  {
+    "nome_popular": "mulungu",
+    "nome": "Erythrina falcata"
+  },
+  {
+    "nome_popular": "munguba",
+    "nome": "Pachira aquatica"
+  },
+  {
+    "nome_popular": "murici",
+    "nome": "Byrsonima pachyphylla"
+  },
+  {
+    "nome_popular": "murici macho",
+    "nome": "Heteropterys byrsonimiifolia"
+  },
+  {
+    "nome_popular": "murici miúdo",
+    "nome": "Byrsonima isericea"
+  },
+  {
+    "nome_popular": "murici rosa",
+    "nome": "Byrsonima coccolobifolia"
+  },
+  {
+    "nome_popular": "muringa",
+    "nome": "Acácia Branca "
+  },
+  {
+    "nome_popular": "murta",
+    "nome": "Murraya paniculata"
+  },
+  {
+    "nome_popular": "mutamba",
+    "nome": "Gazuma ulmifolia"
+  },
+  {
+    "nome_popular": "muxiba comprida",
+    "nome": "Erythroxylum tortuosum"
+  },
+  {
+    "nome_popular": "não identificada",
+    "nome": ""
+  },
+  {
+    "nome_popular": "não listada",
+    "nome": ""
+  },
+  {
+    "nome_popular": "neem",
+    "nome": "Azadirachta indica"
+  },
+  {
+    "nome_popular": "nêspera",
+    "nome": "Eriobotrya japonica"
+  },
+  {
+    "nome_popular": "nêspereira",
+    "nome": "Eriobotrya japonica"
+  },
+  {
+    "nome_popular": "ameixeira",
+    "nome": "Eriobotrya japonica"
+  },
+  {
+    "nome_popular": "nim",
+    "nome": "Azadirachta indica"
+  },
+  {
+    "nome_popular": "nogueira",
+    "nome": "Aleurites moluccana"
+  },
+  {
+    "nome_popular": "oiti",
+    "nome": "Licania tomentosa"
+  },
+  {
+    "nome_popular": "olho de boi",
+    "nome": "Diospyros burchellii"
+  },
+  {
+    "nome_popular": "olho de pavão",
+    "nome": "Adenanthera pavonina"
+  },
+  {
+    "nome_popular": "orelha de macaco",
+    "nome": "Enterolobium contortisiliquum"
+  },
+  {
+    "nome_popular": "pacari",
+    "nome": "Lafoensia pacari"
+  },
+  {
+    "nome_popular": "paineira",
+    "nome": "Ceiba speciosa"
+  },
+  {
+    "nome_popular": "paineira barriguda",
+    "nome": "Ceiba speciosa"
+  },
+  {
+    "nome_popular": "paineira loira",
+    "nome": "Erioteca pubescens"
+  },
+  {
+    "nome_popular": "paineira rosa",
+    "nome": "Ceiba speciosa"
+  },
+  {
+    "nome_popular": "pajeú",
+    "nome": "Triplaris pachau"
+  },
+  {
+    "nome_popular": "palmeira",
+    "nome": "Arecaceae"
+  },
+  {
+    "nome_popular": "palmeira açaí",
+    "nome": "Euterpe olerana"
+  },
+  {
+    "nome_popular": "palmeira areca",
+    "nome": "Dypsis lutescens"
+  },
+  {
+    "nome_popular": "palmeira areca bambu",
+    "nome": "Dypsis lutescens"
+  },
+  {
+    "nome_popular": "palmeira babaçu",
+    "nome": "Orbignya phalerata"
+  },
+  {
+    "nome_popular": "palmeira bacada",
+    "nome": "Oenocarpus bacada"
+  },
+  {
+    "nome_popular": "palmeira buriti",
+    "nome": "Maurita flexuosa"
+  },
+  {
+    "nome_popular": "palmeira cariota",
+    "nome": "Caryota urens"
+  },
+  {
+    "nome_popular": "palmeira carnaúba",
+    "nome": "Copernicia prunifera"
+  },
+  {
+    "nome_popular": "palmeira catolé",
+    "nome": "Syagrus comosa"
+  },
+  {
+    "nome_popular": "palmeira dendezeiro",
+    "nome": "Elaeis guineensis"
+  },
+  {
+    "nome_popular": "palmeira de saia",
+    "nome": "Washingtonia robusta"
+  },
+  {
+    "nome_popular": "palmeira guariroba",
+    "nome": "Syagrus oleracea"
+  },
+  {
+    "nome_popular": "palmeira imperial",
+    "nome": "Roystenea oleracea"
+  },
+  {
+    "nome_popular": "palmeira jerivá",
+    "nome": "Syagrus romanzoffiana"
+  },
+  {
+    "nome_popular": "palmeira locuba",
+    "nome": "Dypsis madagascariensis"
+  },
+  {
+    "nome_popular": "palmeira macaúba",
+    "nome": "Acrocomia aculeata"
+  },
+  {
+    "nome_popular": "palmeira palmito doce",
+    "nome": "Euterpe edulis"
+  },
+  {
+    "nome_popular": "palmeira pupunha",
+    "nome": "Bactris gasipaes"
+  },
+  {
+    "nome_popular": "palmeira rabo de peixe",
+    "nome": "Caryota urens"
+  },
+  {
+    "nome_popular": "palmeira ráfis",
+    "nome": "Rhapis excelsea"
+  },
+  {
+    "nome_popular": "palmeira real",
+    "nome": "Roystonea regia"
+  },
+  {
+    "nome_popular": "palmeira samambaia",
+    "nome": "Cicas revoluta"
+  },
+  {
+    "nome_popular": "palmeira triângular",
+    "nome": "Dypsis decary"
+  },
+  {
+    "nome_popular": "palmeira tucum",
+    "nome": "Bactris vulgaris"
+  },
+  {
+    "nome_popular": "palmeira washingtonia",
+    "nome": "Washingtonia sp."
+  },
+  {
+    "nome_popular": "parkia",
+    "nome": "Parkia sp."
+  },
+  {
+    "nome_popular": "pata de elefante",
+    "nome": "Yucca elephantipes"
+  },
+  {
+    "nome_popular": "pata de vaca",
+    "nome": "Bauhinia variegata"
+  },
+  {
+    "nome_popular": "pata de vaca branca",
+    "nome": "Bauhinia variegata"
+  },
+  {
+    "nome_popular": "pau bosta",
+    "nome": "Tachigali aurea"
+  },
+  {
+    "nome_popular": "pau brasil",
+    "nome": "Caesalpinia echinata"
+  },
+  {
+    "nome_popular": "pau dalho",
+    "nome": "Gallesia integrifolia"
+  },
+  {
+    "nome_popular": "pau d'arco amarelo",
+    "nome": "Tabebuia serratifolia"
+  },
+  {
+    "nome_popular": "pau d'arco branco",
+    "nome": "Tabebuia roseoalba"
+  },
+  {
+    "nome_popular": "pau d'arco roxo",
+    "nome": "Tabebuia impetiginosa"
+  },
+  {
+    "nome_popular": "pau de balsa",
+    "nome": "Ochroma pyramidale"
+  },
+  {
+    "nome_popular": "pau de canoa",
+    "nome": "Schizolobium parahyba"
+  },
+  {
+    "nome_popular": "pau de leite",
+    "nome": "Himatanthus obovatus"
+  },
+  {
+    "nome_popular": "pau de rosas",
+    "nome": "Physocalymma scaberrimum"
+  },
+  {
+    "nome_popular": "pau de tucano",
+    "nome": "Vochysia tucanorum"
+  },
+  {
+    "nome_popular": "pau doce",
+    "nome": "Vochysia elliptica"
+  },
+  {
+    "nome_popular": "pau d'óleo",
+    "nome": "Copaifera langsdorffii"
+  },
+  {
+    "nome_popular": "pau ferro",
+    "nome": "Caesalpinia ferrea"
+  },
+  {
+    "nome_popular": "pau formiga",
+    "nome": "Triplaris gardneriana"
+  },
+  {
+    "nome_popular": "pau jacaré",
+    "nome": "Piptadenia gonoacantha"
+  },
+  {
+    "nome_popular": "pau jaú",
+    "nome": "Triplaris gardneriana"
+  },
+  {
+    "nome_popular": "pau pereira",
+    "nome": "Platycyamus regnellii"
+  },
+  {
+    "nome_popular": "pau pobre",
+    "nome": "Dilodendron hipinnatum"
+  },
+  {
+    "nome_popular": "pau rei",
+    "nome": "Basiloxylon brasiliensis"
+  },
+  {
+    "nome_popular": "pau santo",
+    "nome": "Kielmeyera coriacea"
+  },
+  {
+    "nome_popular": "pau terra grande",
+    "nome": "Qualea grandiflora"
+  },
+  {
+    "nome_popular": "pau terra liso",
+    "nome": "Qualea multiflora"
+  },
+  {
+    "nome_popular": "pau terra roxo",
+    "nome": "Qualea parviflora"
+  },
+  {
+    "nome_popular": "pequi",
+    "nome": "Caryocar brasiliense"
+  },
+  {
+    "nome_popular": "pequizeiro",
+    "nome": "Caryocar brasiliense"
+  },
+  {
+    "nome_popular": "peroba do cerrado",
+    "nome": "Aspidosperma tomentosum"
+  },
+  {
+    "nome_popular": "perobinha do campo",
+    "nome": "Leptolobim daycapum"
+  },
+  {
+    "nome_popular": "pessegueiro",
+    "nome": "Prunus persica"
+  },
+  {
+    "nome_popular": "pimenta de macaco",
+    "nome": "Xylopia aromatica"
+  },
+  {
+    "nome_popular": "pindaíba",
+    "nome": "Xylopia emarginata"
+  },
+  {
+    "nome_popular": "pinha",
+    "nome": "Annona sp."
+  },
+  {
+    "nome_popular": "pinheirinho",
+    "nome": "Podocarous maki"
+  },
+  {
+    "nome_popular": "pinheiro",
+    "nome": "Pinus caribaea"
+  },
+  {
+    "nome_popular": "pinheiro caribé",
+    "nome": "Pinus caribaea"
+  },
+  {
+    "nome_popular": "pinheiro da praia",
+    "nome": "Casuarina equisetifolia"
+  },
+  {
+    "nome_popular": "pinheiro de natal",
+    "nome": "Araucaria excelsa"
+  },
+  {
+    "nome_popular": "pinheiro de norfolk",
+    "nome": "Araucaria heterophylla"
+  },
+  {
+    "nome_popular": "pinheiro do paraná",
+    "nome": "Araucaria angustifolia"
+  },
+  {
+    "nome_popular": "pinnus",
+    "nome": "Pinnus elliotti"
+  },
+  {
+    "nome_popular": "piper",
+    "nome": "Piper arboreum"
+  },
+  {
+    "nome_popular": "piqui",
+    "nome": "Caryocar brasiliense"
+  },
+  {
+    "nome_popular": "pitangueira",
+    "nome": "Eugenia uniflora"
+  },
+  {
+    "nome_popular": "piteira",
+    "nome": "Agave angustifolia"
+  },
+  {
+    "nome_popular": "pitombeira",
+    "nome": "Talisia esculenta"
+  },
+  {
+    "nome_popular": "pixirica",
+    "nome": "Miconia albicans"
+  },
+  {
+    "nome_popular": "pixirica branca",
+    "nome": "Clidemia biserrata"
+  },
+  {
+    "nome_popular": "pombeiro",
+    "nome": "Tapirira guianensis"
+  },
+  {
+    "nome_popular": "quaresmeira",
+    "nome": "Tibouchina candolleana"
+  },
+  {
+    "nome_popular": "quina do cerrado",
+    "nome": "Strychnos pseudo"
+  },
+  {
+    "nome_popular": "quiri",
+    "nome": "Brosimum guianense"
+  },
+  {
+    "nome_popular": "resedá",
+    "nome": "Lagerstroemia indica"
+  },
+  {
+    "nome_popular": "romãzeiro",
+    "nome": "Punica granatum"
+  },
+  {
+    "nome_popular": "roupala montana",
+    "nome": "Roupala montana"
+  },
+  {
+    "nome_popular": "sabiá",
+    "nome": "Mimosa caesalpiniifolia"
+  },
+  {
+    "nome_popular": "sabiú",
+    "nome": "Parkia platycephala"
+  },
+  {
+    "nome_popular": "saboneteira",
+    "nome": "Sapindus saponaria"
+  },
+  {
+    "nome_popular": "saguaraji",
+    "nome": "Colubrina gandulosa"
+  },
+  {
+    "nome_popular": "salgueiro colunar",
+    "nome": "Salix nigra"
+  },
+  {
+    "nome_popular": "salix chorão",
+    "nome": "Salix babilonica"
+  },
+  {
+    "nome_popular": "salix colominaris",
+    "nome": "Salix nigra"
+  },
+  {
+    "nome_popular": "sangra d`água",
+    "nome": "Croton urucurana"
+  },
+  {
+    "nome_popular": "sanguínia",
+    "nome": "Calathea trialstar"
+  },
+  {
+    "nome_popular": "sansão do campo",
+    "nome": "Mimosa caesalpiniifolia"
+  },
+  {
+    "nome_popular": "santa barbara",
+    "nome": "Melia azedarach"
+  },
+  {
+    "nome_popular": "sapucaia",
+    "nome": "Lecythis pisonis"
+  },
+  {
+    "nome_popular": "scheflera",
+    "nome": "Schefflera actinophylla"
+  },
+  {
+    "nome_popular": "segavê",
+    "nome": "Adenanthera pavonina"
+  },
+  {
+    "nome_popular": "segawe",
+    "nome": "Adenanthera pavonina"
+  },
+  {
+    "nome_popular": "seriguela",
+    "nome": "Spondias purpurea"
+  },
+  {
+    "nome_popular": "seringueira",
+    "nome": "Hevea brasiliensis"
+  },
+  {
+    "nome_popular": "sete copas",
+    "nome": "Terminalia catapa"
+  },
+  {
+    "nome_popular": "sibipiruna",
+    "nome": "Caesalpinia pluviosa"
+  },
+  {
+    "nome_popular": "simarouba amara",
+    "nome": "Simarouba amara"
+  },
+  {
+    "nome_popular": "siriguela",
+    "nome": "Spondias purpurea"
+  },
+  {
+    "nome_popular": "sleumer",
+    "nome": "Guarea guidonia"
+  },
+  {
+    "nome_popular": "sombreiro",
+    "nome": "Clitoria fairchildiana"
+  },
+  {
+    "nome_popular": "sucupira branca",
+    "nome": "Pterodon pubescens"
+  },
+  {
+    "nome_popular": "sucupira preta",
+    "nome": "Bowdichia virgilioides"
+  },
+  {
+    "nome_popular": "tamanqueira",
+    "nome": "Aegiphila sellowiana"
+  },
+  {
+    "nome_popular": "tamarindo",
+    "nome": "Tamarindus indica"
+  },
+  {
+    "nome_popular": "tamboril",
+    "nome": "Enterolobium contortisiquum"
+  },
+  {
+    "nome_popular": "tangerina",
+    "nome": "Citrus deliciosa"
+  },
+  {
+    "nome_popular": "tarumã",
+    "nome": "Vitex polygama"
+  },
+  {
+    "nome_popular": "terminália",
+    "nome": "Terminalia sp."
+  },
+  {
+    "nome_popular": "tingui",
+    "nome": "Magonia pubescens"
+  },
+  {
+    "nome_popular": "tipa branca",
+    "nome": "Tipuana tipu"
+  },
+  {
+    "nome_popular": "tipuana",
+    "nome": "Tipuana tipu"
+  },
+  {
+    "nome_popular": "tuia",
+    "nome": "Thuja occidentalis"
+  },
+  {
+    "nome_popular": "tuia ocidental",
+    "nome": "Thuja occidentalis"
+  },
+  {
+    "nome_popular": "tumbérgia azul",
+    "nome": "Thunbergia grandiflora"
+  },
+  {
+    "nome_popular": "umbuzeiro",
+    "nome": "Spondias tuberosa"
+  },
+  {
+    "nome_popular": "urucum",
+    "nome": "Bixa orellana"
+  },
+  {
+    "nome_popular": "urundeúva",
+    "nome": "Myracrodruon urundeuva"
+  },
+  {
+    "nome_popular": "uva do japão",
+    "nome": "Hovenia dulcis"
+  },
+  {
+    "nome_popular": "uva do pará",
+    "nome": "Hovenia dulcis"
+  },
+  {
+    "nome_popular": "vassoura de bruxa",
+    "nome": "Ouratea hexasperma"
+  },
+  {
+    "nome_popular": "vinhático",
+    "nome": "Plathymenia reticulata"
+  },
+  {
+    "nome_popular": "vinhático do campo",
+    "nome": "Plathymenia reticulata"
+  },
+  {
+    "nome_popular": "visgueiro",
+    "nome": "Parkia pendula"
+  },
+  {
+    "nome_popular": "xixi de macaco",
+    "nome": "Spathodea campanulata"
+  },
+  {
+    "nome_popular": "yuca",
+    "nome": "Yucca sp."
+  }
+]

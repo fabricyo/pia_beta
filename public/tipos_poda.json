@@ -1,0 +1,47 @@
+[
+  {
+    "tipo": "Desbrota"
+  },
+  {
+    "tipo": "Poda combinada 1 (duas intervenções)"
+  },
+  {
+    "tipo": "Poda combinada 2 (três intervenções)"
+  },
+  {
+    "tipo": "Poda combinada 3 (quatro ou mais intervenções)"
+  },
+  {
+    "tipo": "Poda de condução (árvores com altura inferior a três metros)"
+  },
+  {
+    "tipo": "Poda de correção (poda realizada por terceiros"
+  },
+  {
+    "tipo": "Poda de equilíbrio"
+  },
+  {
+    "tipo": "Poda de galhos secos / quebrados / pendurados"
+  },
+  {
+    "tipo": "Poda de levantamento de copa (árvores com altura superior a três metros)"
+  },
+  {
+    "tipo": "Poda de liberação de equipamentos públicos (luminárias"
+  },
+  {
+    "tipo": "Poda de liberação de fachada / telhado"
+  },
+  {
+    "tipo": "Poda de liberação de projeção (muros"
+  },
+  {
+    "tipo": "Poda de redução de altura"
+  },
+  {
+    "tipo": "Poda de redução de diâmetro de copa"
+  },
+  {
+    "tipo": "Poda sanitária (Erva-de-passarinho)"
+  }
+]
