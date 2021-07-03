@@ -104,7 +104,6 @@
                 <div class="row">
                     <div class="col-12 col-md-5 mx-auto mt-3 border border-info rounded p-3 text-center">
                         <p>Adicione uma foto (opcional)</p>
-                        <p>.jpg de até 1MB</p>
                         <div class="input-file-container">
                             <input class="input-file" id="image" name="image" type="file"
                                    accept=".jpg, .jpeg, .png">

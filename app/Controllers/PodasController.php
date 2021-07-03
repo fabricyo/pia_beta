@@ -70,8 +70,8 @@ class PodasController extends BaseController
                 if($file_raw['size'] > 0){
                     $file = new \CodeIgniter\Files\File($file_raw['tmp_name']);
                     $ext = explode("/", $file->getMimeType())[1];
-                    $file->move(WRITEPATH.'uploads/podas', "poda__".$id_poda.".".$ext);
-                    $podas->update($id_poda, ['file_path' => WRITEPATH."uploads/podas/poda__".$id_poda.".".$ext]);
+                    compressImage($file_raw['tmp_name'], WRITEPATH."uploads/podas/poda__".$id_poda.".jpeg", 70);
+                    $podas->update($id_poda, ['file_path' => WRITEPATH."uploads/podas/poda__".$id_poda.".jpeg"]);
                 }
                 setSystemMsg('success', "Poda cadastrada com sucesso!");
                 $url = '/podas/create';
