@@ -154,6 +154,8 @@ class SupressoesController extends BaseController
     {
         $sp = (new Supressoes())->find($id);
         $sp->os_id = (new OSs())->where(['numero'=> $sp->os])->find()[0]->id;
+        if($sp->file_path)
+            $$sp->image = new \CodeIgniter\Files\File($sp->file_path);
         load_view('supressoes/details', ['s' => $sp]);
     }
 

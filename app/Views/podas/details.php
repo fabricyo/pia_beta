@@ -8,11 +8,11 @@
         "Diâmetro da copa: $p->diametro"; ?></li>
     <li class="list-group-item">Intensidade da Poda: <?= $p->intensidade; ?></li>
     <li class="list-group-item">Local: <?= $p->local; ?></li>
-    <li class="list-group-item">
-        Criado em: <?= dateSwap($p->created_at); ?>, atualizado em: <?= dateSwap($p->updated_at); ?></li>
+    <li class="list-group-item">Criado em: <?= dateSwap($p->created_at); ?>, atualizado em: <?= dateSwap($p->updated_at); ?></li>
     <?php if (isset($p->image)) { ?>
         <li class="list-group-item">
             <img src="<?=$p->file_path."?a=".date("d-m-YH:i:s.u")?>" alt="Foto" width="100%" height="auto">
+        </li>
     <?php } ?>
     <li class="list-group-item">
         <a href="<?= base_url('podas/edit/' . $p->id); ?>" class="btn btn-info">Editar as informações <i

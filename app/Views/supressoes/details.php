@@ -8,8 +8,12 @@
         "Diâmetro da copa: $s->diametro"; ?></li>
     <li class="list-group-item">Perímetro: <?= $s->perimetro;?></li>
     <li class="list-group-item">Local: <?= $s->local; ?></li>
-    <li class="list-group-item">
-        Criado em: <?= dateSwap($s->created_at); ?>, atualizado em: <?= dateSwap($s->updated_at); ?></li>
+    <li class="list-group-item">Criado em: <?= dateSwap($s->created_at); ?>, atualizado em: <?= dateSwap($s->updated_at); ?></li>
+    <?php if (isset($s->image)) { ?>
+        <li class="list-group-item">
+            <img src="<?=$s->file_path."?a=".date("d-m-YH:i:s.u")?>" alt="Foto" width="100%" height="auto">
+        </li>
+    <?php } ?>
     <li class="list-group-item">
         <a href="<?= base_url('supressoes/edit/' . $s->id); ?>" class="btn btn-info">Editar as informações <i
                     class="fas fa-edit"></i></a>
