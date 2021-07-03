@@ -27,6 +27,29 @@
                         <?= show_error('nome_vistoriador') ?>
                     </div>
                 </div>
+                <div class="row mx-2 clearfix">
+                    <div class="col-md-4">
+                        <label for="lote" class="ml-0">Lote</label>
+                        <select class="form-control form-control-sm select input-lg" id="lote"
+                                name="lote" required>
+                            <?php foreach ($lotes as $l) { ?>
+                                <option <?= form_select('lote', $l); ?>><?= $l; ?></option>
+                            <?php } ?>
+                        </select>
+                        <?= show_error('lote') ?>
+                    </div>
+                </div>
+                <div class="row mx-2 clearfix">
+                    <div class="col-md-8 md-form">
+                        <label for="endereco" class="ml-0">Endereço</label>
+                        <input type="text" id="endereco" name="endereco"
+                               class="form-control form-control-sm" value="<?= old('endereco'); ?>">
+                        <?= show_error('endereco') ?>
+                    </div>
+                    <div class="col-md-4 mt-md-3">
+                        <button id="get_loc" type="button" class="btn btn-info btn-sm">Preencher cidade</button>
+                    </div>
+                </div>
                 <button type="submit" class="btn btn-success mt-3" name="submit">Adicionar</button>
             </form>
         </div>
@@ -38,6 +61,21 @@
         $("#numero").mask("00000/2000");
         $('#dt_vistoria').pickadate({
             format: 'dd/mm/yyyy'
+        });
+
+        $("#get_loc").on('click', function () {
+            $.ajax({
+                url: "https://geolocation-db.com/jsonp",
+                jsonpCallback: "callback",
+                dataType: "jsonp",
+                success: function (location) {
+                    console.info(location);
+                    $("#endereco").val(location.city).focus();
+
+                    $('#latitude').html(location.latitude);
+                    $('#longitude').html(location.longitude);
+                }
+            });
         });
     });
 </script>

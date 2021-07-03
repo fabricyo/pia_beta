@@ -22,8 +22,9 @@ class OSsController extends BaseController
 
     public function create()
     {
+        $data['lotes'] = ['Lote 1', 'Lote 2', 'Lote 3', 'Lote 4', 'Lote 5','Lote 6', 'Lote 7', 'Lote 10', 'Lote 9'];
         load_libs(['form_utils']);
-        load_view('oss/create');
+        load_view('oss/create', $data);
     }
 
     public function store()
@@ -32,16 +33,30 @@ class OSsController extends BaseController
         $input = $this->validate([
             'numero' => [
                 'rules' => 'required|exact_length[10]|is_unique[oss.numero]',
-                'errors' => ['is_unique' => 'Número de OS já cadastrado']
+                'errors' => ['required' => 'Informação necessária', 'is_unique' => 'Número de OS já cadastrado']
             ],
-            'dt_vistoria' => 'required',
-            'nome_vistoriador' => 'required|max_length[50]',
+            'dt_vistoria' => [
+                'rules' => 'required',
+                'errors' => ['required' => 'Informação necessária',]
+            ],
+            'nome_vistoriador' => [
+                'rules' => 'required|max_length[50]|is_unique[oss.numero]',
+                'errors' => ['required' => 'Informação necessária', 'max_length' => 'Máximo de 50 caracteres']
+            ],
+            'lote' => [
+                'rules' => 'required',
+                'errors' => ['required' => 'Informação necessária']
+            ],
+            'endereco' => [
+                'rules' => 'required|max_length[100]',
+                'errors' => ['required' => 'Informação necessária', 'max_length' => 'Máximo de 100 caracteres']
+            ],
         ]);
         if (!$input) {
             setSystemMsg("danger", "Corrija os erros nas informações");
             return redirect()->route('oss/create')->withInput()->with('validation', $this->validator);
         } else {
-            $cols = ['numero', 'nome_vistoriador'];
+            $cols = ['numero', 'nome_vistoriador', 'lote', 'endereco'];
             $data = [];
             foreach ($cols as $c) {
                 $data[$c] = $this->request->getVar($c);
@@ -71,15 +86,32 @@ class OSsController extends BaseController
     {
         ## Validation
         $input = $this->validate([
-            'numero' => 'required|exact_length[10]',
-            'dt_vistoria' => 'required',
-            'nome_vistoriador' => 'required|max_length[50]',
+            'numero' => [
+                'rules' => 'required|exact_length[10]',
+                'errors' => ['required' => 'Informação necessária']
+            ],
+            'dt_vistoria' => [
+                'rules' => 'required',
+                'errors' => ['required' => 'Informação necessária',]
+            ],
+            'nome_vistoriador' => [
+                'rules' => 'required|exact_length[50]|is_unique[oss.numero]',
+                'errors' => ['required' => 'Informação necessária', 'exact_length' => 'Máximo de 50 caracteres']
+            ],
+            'lote' => [
+                'rules' => 'required',
+                'errors' => ['required' => 'Informação necessária']
+            ],
+            'endereco' => [
+                'rules' => 'required|exact_length[100]',
+                'errors' => ['required' => 'Informação necessária', 'exact_length' => 'Máximo de 100 caracteres']
+            ],
         ]);
         if (!$input) {
             setSystemMsg("danger", "Corrija os erros nas informações");
             return redirect()->to('/oss/edit/' . $id)->withInput()->with('validation', $this->validator);
         } else {
-            $cols = ['numero', 'nome_vistoriador'];
+            $cols = ['numero', 'nome_vistoriador', 'lote', 'endereco'];
             $data = [];
             foreach ($cols as $c) {
                 $data[$c] = $this->request->getVar($c);

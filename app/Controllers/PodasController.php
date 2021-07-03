@@ -26,7 +26,7 @@ class PodasController extends BaseController
         } else {
             $data['oss'] = (new OSs())->findAll();
         }
-        load_libs(['form_utils']);
+        load_libs(['form_utils', 'input_file']);
         load_view('podas/create', $data);
     }
 

@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://10.133.149.81/transporte/public/';
+	public $baseURL = '';
 
 	/**
 	 * --------------------------------------------------------------------------
@@ -36,7 +36,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $indexPage = 'index.php';
+	public $indexPage = '';
 
 	/**
 	 * --------------------------------------------------------------------------

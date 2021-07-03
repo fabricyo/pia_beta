@@ -56,4 +56,8 @@
 
 <?php } ?>
 
+<?php if ($session->has("input_file")) { ?>
+    <script src="<?= base_url('js/input_file.js'); ?>"></script>
+<?php } ?>
+
 <script src="<?= base_url('js/scripts.js'); ?>"></script>

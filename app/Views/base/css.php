@@ -17,7 +17,6 @@
 
 <?php if ($session->has("calendario")) { ?>
     <link rel="stylesheet" type="text/css" href="<?= base_url('libs/fullcalendar/main.css');?>" />
-
 <?php } ?>
 
 <?php if ($session->has("form_utils")) { ?>
@@ -27,4 +26,8 @@
     <link rel="stylesheet" href="<?=base_url('libs/pickadate/themes/classic.date.css')?>">
     <link rel="stylesheet" href="<?=base_url('libs/pickadate/themes/classic.time.css')?>">
 <!--    <link rel="stylesheet" href="--><?//=base_url('css/pickadate_custom.css')?><!--">-->
+<?php } ?>
+
+<?php if ($session->has("input_file")) { ?>
+    <link rel="stylesheet" type="text/css" href="<?= base_url('css/input_file.css');?>" />
 <?php } ?>
