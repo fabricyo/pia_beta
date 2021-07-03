@@ -68,7 +68,7 @@ class PodasController extends BaseController
                 ///Checa se há foto
                 $file_raw = $_FILES['image'];
                 if($file_raw['size'] > 0){
-                    compressImage($file_raw['tmp_name'], ROOTPATH.'public/uploads/'."podas/poda__".$id_poda.".jpeg", 65);
+                    move_uploaded_file($file_raw['tmp_name'], ROOTPATH.'public/uploads/'."podas/poda__".$id_poda.".jpeg");
                     correctImageOrientation(ROOTPATH.'public/uploads/'."podas/poda__".$id_poda.".jpeg");
                     $podas->update($id_poda, ['file_path' => base_url("uploads/podas/poda__$id_poda.jpeg")]);
                 }

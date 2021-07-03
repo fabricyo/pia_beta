@@ -146,7 +146,7 @@ function correctImageOrientation($filename) {
                     $img = imagerotate($img, $deg, 0);
                 }
                 // then rewrite the rotated image back to the disk as $filename
-                imagejpeg($img, $filename, 95);
+                imagejpeg($img, $filename, 65);
             } // if there is some rotation necessary
         } // if have the exif orientation info
     } // if function exists
