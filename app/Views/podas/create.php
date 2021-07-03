@@ -7,7 +7,7 @@
             <?php } ?>
         </h5>
         <div class="card-body text-justify green lighten-5">
-            <form action="<?= base_url('podas/store') ?>" method="post" class="py-4" enctype="multipart/form-data">
+            <?= form_open_multipart(base_url('podas/store'));?>
                 <input name="os_id" value="<?=$os_id?>" hidden>
                 <div class="row mx-2 clearfix">
                     <div class="col-md-6 ">
@@ -106,12 +106,12 @@
                         <p>Adicione uma foto (opcional)</p>
                         <p>.jpg de até 1MB</p>
                         <div class="input-file-container">
-                            <input class="input-file" id="pic" name="pic" type="file" required
+                            <input class="input-file" id="image" name="image" type="file"
                                    accept=".jpg, .jpeg, .png">
-                            <label tabindex="0" for="my-file" class="input-file-trigger">Selecionar arquivo</label>
+                            <label tabindex="0" for="image" class="input-file-trigger">Selecionar arquivo</label>
                         </div>
                         <p class="file-return"></p>
-<!--                        <p>--><?//= form_error("idt_doc") ?><!--</p>-->
+                        <p><?= show_error("image") ?></p>
                     </div>
                 </div>
                 <button type="submit" class="btn btn-success mt-3" name="submit">Adicionar</button>
@@ -128,7 +128,9 @@
         $.getJSON('<?=base_url("tipos_poda.json");?>', function (data) {
             $.each(data, function (key, entry) {
                 select_tipo.append($('<option></option>').attr('value', entry.tipo).text(entry.tipo));
-            })
+            });
+            let selected = '<?= old('tipo', 1);?>';
+            select_tipo.val(selected);
         });
 
         let select_especie = $('#especie');
@@ -137,7 +139,9 @@
             $.each(data, function (key, entry) {
                 const tipo = `${entry.nome_popular} - ${entry.nome}`;
                 select_especie.append($('<option></option>').attr('value', tipo).text(tipo));
-            })
+            });
+            let selected = '<?= old('especie', 1);?>';
+            select_especie.val(selected);
         });
 
         $("#quantidade").mask("0000");

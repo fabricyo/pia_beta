@@ -91,3 +91,16 @@ function dateSwap(string $date): string
     }
 }
 
+function validate_file($file, $field, $formats, $size){
+    $errors = 0;
+    $validation = \Config\Services::validation();
+    if(!in_array($file->getMimeType(), $formats)){
+        $validation->setError($field, "Formato de arquivo não suportado");
+        $errors++;
+    }
+    if($file->getSizeByUnit('mb') > $size){
+        $validation->setError($field, "Tamanho do arquivo muito grande");
+        $errors++;
+    }
+    return $errors == 0;
+}

@@ -133,7 +133,9 @@
             $.each(data, function (key, entry) {
                 const tipo = `${entry.nome_popular} - ${entry.nome}`;
                 select_especie.append($('<option></option>').attr('value', tipo).text(tipo));
-            })
+            });
+            let selected = '<?= old('especie');?>';
+            select_especie.val(selected);
         });
 
         $("#quantidade").mask("0000");

@@ -8,7 +8,7 @@ class Podas extends Model
     protected $table = 'podas';
     protected $primaryKey = 'id';
     protected $returnType = 'object';
-    protected $allowedFields = ['os', 'tipo', 'quantidade', 'especie', 'alt_arv', 'alt_poda', 'diametro', 'intensidade', 'local'];
+    protected $allowedFields = ['os', 'tipo', 'quantidade', 'especie', 'alt_arv', 'alt_poda', 'diametro', 'intensidade', 'local', 'file_path'];
     protected $useTimestamps = true;
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
