@@ -51,7 +51,7 @@ class SupressoesController extends BaseController
         $validate_file = true;
         if($file_raw['size'] > 0){
             $file = new \CodeIgniter\Files\File($file_raw['tmp_name']);
-            $validate_file = validate_file($file, 'image', ['image/png', 'image/jpg', 'image/jpeg'], 8);
+            $validate_file = validate_file($file, 'image', ['image/png', 'image/jpg', 'image/jpeg'], 15);
         }
         if (!$input || !$validate_file) {
             setSystemMsg("danger", "Corrija os erros nas informações");
