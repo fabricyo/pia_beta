@@ -27,7 +27,8 @@
                         <?= show_error('nome_vistoriador') ?>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-success mt-3" name="submit">Editar OS</button>
+                <button type="submit" class="btn btn-success mt-3" name="submit"><i class="fas fa-pencil-alt"></i> Editar OS</button>
+                <a href="<?= base_url('oss/details/' . $os->id); ?>" class="btn btn-warning mt-3"><i class="fas fa-times"></i> Cancelar edição</a>
             </form>
         </div>
     </div>

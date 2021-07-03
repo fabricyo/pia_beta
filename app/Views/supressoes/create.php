@@ -130,7 +130,7 @@
                         <p><?= show_error("image") ?></p>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-success mt-3" name="submit">Adicionar Supressão</button>
+                <button type="submit" class="btn btn-success mt-3" name="submit"><i class="fas fa-plus"></i> Adicionar Supressão</button>
                 <?= form_close() ?>
         </div>
     </div>

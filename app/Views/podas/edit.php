@@ -128,8 +128,8 @@
                     <p><?= show_error("image") ?></p>
                 </div>
             </div>
-            <button type="submit" class="btn btn-success mt-3" name="submit">Editar Poda</button>
-            <a href="<?= base_url('podas/details/' . $p->id); ?>" class="btn btn-warning mt-3">Cancelar edição</a>
+            <button type="submit" class="btn btn-success mt-3" name="submit"><i class="fas fa-pencil-alt"></i> Editar Poda</button>
+            <a href="<?= base_url('podas/details/' . $p->id); ?>" class="btn btn-warning mt-3"><i class="fas fa-times"></i> Cancelar edição</a>
             <?= form_close() ?>
         </div>
     </div>
