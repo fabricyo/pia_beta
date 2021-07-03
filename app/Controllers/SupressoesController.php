@@ -69,7 +69,7 @@ class SupressoesController extends BaseController
                 ///Checa se há foto
                 $file_raw = $_FILES['image'];
                 if($file_raw['size'] > 0){
-                    move_uploaded_file($file_raw['tmp_name'], ROOTPATH."public/uploads/supressoes/supresssao__$id_sp.jpeg");
+                    move_uploaded_file($file_raw['tmp_name'], ROOTPATH."public/uploads/supressoes/supressao__$id_sp.jpeg");
                     correctImageOrientation(ROOTPATH."public/uploads/supressoes/supressao__$id_sp.jpeg");
                     $sps->update($id_sp, ['file_path' => base_url("uploads/supressoes/supressao__$id_sp.jpeg")]);
                 }
