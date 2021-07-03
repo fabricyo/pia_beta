@@ -114,7 +114,7 @@
                     </div>
                 </div>
                 <button type="submit" class="btn btn-success mt-3" name="submit">Adicionar</button>
-            </form>
+            <?= form_close() ?>
         </div>
     </div>
 </div>
