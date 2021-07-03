@@ -26,7 +26,8 @@ class SupressoesController extends BaseController
         }else{
             $data['oss'] = (new OSs())->findAll();
         }
-        load_libs(['form_utils']);
+        helper('form');
+        load_libs(['form_utils', 'input_file']);
         load_view('supressoes/create', $data);
     }
 
@@ -45,7 +46,14 @@ class SupressoesController extends BaseController
             'local' => 'required',
         ]);
 
-        if (!$input) {
+        //Gato do gato, mas vamos
+        $file_raw = $_FILES['image'];
+        $validate_file = true;
+        if($file_raw['size'] > 0){
+            $file = new \CodeIgniter\Files\File($file_raw['tmp_name']);
+            $validate_file = validate_file($file, 'image', ['image/png', 'image/jpg', 'image/jpeg'], 8);
+        }
+        if (!$input || !$validate_file) {
             setSystemMsg("danger", "Corrija os erros nas informações");
             return redirect()->route('supressoes/create')->withInput()->with('validation', $this->validator);
         } else {
@@ -56,7 +64,15 @@ class SupressoesController extends BaseController
                 $data[$c] = $this->request->getVar($c);
             }
             ## Insert Record
-            if ($sps->insert($data)) {
+            $id_sp = $sps->insert($data);
+            if ($id_sp) {
+                ///Checa se há foto
+                $file_raw = $_FILES['image'];
+                if($file_raw['size'] > 0){
+                    move_uploaded_file($file_raw['tmp_name'], ROOTPATH."public/uploads/supressoes/supresssao__$id_sp.jpeg");
+                    correctImageOrientation(ROOTPATH."public/uploads/supressoes/supressao__$id_sp.jpeg");
+                    $sps->update($id_sp, ['file_path' => base_url("uploads/supressoes/supressao__$id_sp.jpeg")]);
+                }
                 setSystemMsg('success', "Supressão cadastrada com sucesso!");
                 $url = '/supressoes/create';
                 if($this->request->getVar('os_id')){
@@ -75,7 +91,8 @@ class SupressoesController extends BaseController
     {
         ## Select record by id
         $data['s'] = (new Supressoes())->find($id);
-        load_libs(['form_utils']);
+        helper('form');
+        load_libs(['form_utils', 'input_file']);
         load_view('supressoes/edit', $data);
     }
 
@@ -106,6 +123,12 @@ class SupressoesController extends BaseController
             }
             ## Update record
             if ($sps->update($id, $data)) {
+                ///Checa se há foto
+                $file_raw = $_FILES['image'];
+                if($file_raw['size'] > 0){
+                    move_uploaded_file($file_raw['tmp_name'], ROOTPATH."public/uploads/supressoes/supressao__$id.jpeg");
+                    correctImageOrientation(ROOTPATH."public/uploads/supressoes/supressao__$id.jpeg");
+                }
                 setSystemMsg('success', "Supressão atualizada com sucesso!");
                 return redirect()->to('/supressoes/details/' . $id);
             } else {

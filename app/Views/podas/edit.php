@@ -116,6 +116,18 @@
                     <p><?= show_error("image") ?></p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-12 col-md-5 mx-auto mt-3 border border-info rounded p-3 text-center">
+                    <p>Edite/Adicione uma foto (opcional)</p>
+                    <div class="input-file-container">
+                        <input class="input-file" id="image" name="image" type="file"
+                               accept=".jpg, .jpeg, .png">
+                        <label tabindex="0" for="image" class="input-file-trigger">Selecionar arquivo</label>
+                    </div>
+                    <p class="file-return"></p>
+                    <p><?= show_error("image") ?></p>
+                </div>
+            </div>
             <button type="submit" class="btn btn-success mt-3" name="submit">Editar Poda</button>
             <a href="<?= base_url('podas/details/' . $p->id); ?>" class="btn btn-warning mt-3">Cancelar edição</a>
             <?= form_close() ?>

@@ -68,8 +68,8 @@ class PodasController extends BaseController
                 ///Checa se há foto
                 $file_raw = $_FILES['image'];
                 if($file_raw['size'] > 0){
-                    move_uploaded_file($file_raw['tmp_name'], ROOTPATH.'public/uploads/'."podas/poda__".$id_poda.".jpeg");
-                    correctImageOrientation(ROOTPATH.'public/uploads/'."podas/poda__".$id_poda.".jpeg");
+                    move_uploaded_file($file_raw['tmp_name'], ROOTPATH."public/uploads/podas/poda__$id_poda.jpeg");
+                    correctImageOrientation(ROOTPATH."public/uploads/podas/poda__$id_poda.jpeg");
                     $podas->update($id_poda, ['file_path' => base_url("uploads/podas/poda__$id_poda.jpeg")]);
                 }
                 setSystemMsg('success', "Poda cadastrada com sucesso!");
@@ -129,9 +129,8 @@ class PodasController extends BaseController
                 ///Checa se há foto
                 $file_raw = $_FILES['image'];
                 if($file_raw['size'] > 0){
-                    move_uploaded_file($file_raw['tmp_name'], ROOTPATH.'public/uploads/'."podas/poda__".$id.".jpeg");
-                    correctImageOrientation(ROOTPATH.'public/uploads/'."podas/poda__".$id.".jpeg");
-                    (new Podas())->update($id, ['file_path' => base_url("uploads/podas/poda__$id.jpeg")]);
+                    move_uploaded_file($file_raw['tmp_name'], ROOTPATH."public/uploads/podas/poda__$id.jpeg");
+                    correctImageOrientation(ROOTPATH."public/uploads/podas/poda__$id.jpeg");
                 }
                 setSystemMsg('success', "Poda atualizada com sucesso!");
                 return redirect()->to('/podas/details/' . $id);

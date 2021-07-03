@@ -6,7 +6,7 @@
                     <?= $oss[0]->numero ?></a>
             <?php } ?></h5>
         <div class="card-body text-justify green lighten-5">
-            <form action="<?= base_url('supressoes/store') ?>" method="post" class="py-4">
+            <?= form_open_multipart(base_url('supressoes/store'));?>
                 <input name="os_id" value="<?= $os_id ?>" hidden>
                 <div class="row mx-2 clearfix">
                     <div class="col-md-6 ">
@@ -118,8 +118,20 @@
                         </select>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-success mt-3" name="submit">Adicionar</button>
-            </form>
+                <div class="row">
+                    <div class="col-12 col-md-5 mx-auto mt-3 border border-info rounded p-3 text-center">
+                        <p>Adicione uma foto (opcional)</p>
+                        <div class="input-file-container">
+                            <input class="input-file" id="image" name="image" type="file"
+                                   accept=".jpg, .jpeg, .png">
+                            <label tabindex="0" for="image" class="input-file-trigger">Selecionar arquivo</label>
+                        </div>
+                        <p class="file-return"></p>
+                        <p><?= show_error("image") ?></p>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success mt-3" name="submit">Adicionar Supressão</button>
+                <?= form_close() ?>
         </div>
     </div>
 </div>
