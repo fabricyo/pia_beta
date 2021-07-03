@@ -22,7 +22,7 @@ class OSsController extends BaseController
 
     public function create()
     {
-        $data['lotes'] = ['Lote 1', 'Lote 2', 'Lote 3', 'Lote 4', 'Lote 5','Lote 6', 'Lote 7', 'Lote 10', 'Lote 9'];
+        $data['lotes'] = ['Lote 1', 'Lote 2', 'Lote 3', 'Lote 4', 'Lote 5','Lote 6', 'Lote 7', 'Lote 8', 'Lote 9'];
         load_libs(['form_utils']);
         load_view('oss/create', $data);
     }
@@ -48,8 +48,8 @@ class OSsController extends BaseController
                 'errors' => ['required' => 'Informação necessária']
             ],
             'endereco' => [
-                'rules' => 'required|max_length[100]',
-                'errors' => ['required' => 'Informação necessária', 'max_length' => 'Máximo de 100 caracteres']
+                'rules' => 'max_length[100]',
+                'errors' => ['max_length' => 'Máximo de 100 caracteres']
             ],
         ]);
         if (!$input) {
