@@ -89,7 +89,8 @@ class PodasController extends BaseController
     public function edit($id = 0)
     {
         $data['p'] = (new Podas)->find($id);
-        load_libs(['form_utils']);
+        helper('form');
+        load_libs(['form_utils', 'input_file']);
         load_view('podas/edit', $data);
     }
 
@@ -108,7 +109,13 @@ class PodasController extends BaseController
             'local' => 'required',
         ]);
 
-        if (!$input) {
+        $file_raw = $_FILES['image'];
+        $validate_file = true;
+        if($file_raw['size'] > 0){
+            $file = new \CodeIgniter\Files\File($file_raw['tmp_name']);
+            $validate_file = validate_file($file, 'image', ['image/png', 'image/jpg', 'image/jpeg'], 8);
+        }
+        if (!$input || !$validate_file) {
             setSystemMsg("danger", "Corrija os erros nas informações");
             return redirect()->to('/podas/edit/' . $id)->withInput()->with('validation', $this->validator);
         } else {
@@ -119,6 +126,13 @@ class PodasController extends BaseController
             }
             ## Update record
             if ((new Podas())->update($id, $data)) {
+                ///Checa se há foto
+                $file_raw = $_FILES['image'];
+                if($file_raw['size'] > 0){
+                    move_uploaded_file($file_raw['tmp_name'], ROOTPATH.'public/uploads/'."podas/poda__".$id.".jpeg");
+                    correctImageOrientation(ROOTPATH.'public/uploads/'."podas/poda__".$id.".jpeg");
+                    (new Podas())->update($id, ['file_path' => base_url("uploads/podas/poda__$id.jpeg")]);
+                }
                 setSystemMsg('success', "Poda atualizada com sucesso!");
                 return redirect()->to('/podas/details/' . $id);
             } else {
