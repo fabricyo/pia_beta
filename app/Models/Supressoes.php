@@ -8,7 +8,7 @@ class Supressoes extends Model
     protected $table = 'supressoes';
     protected $primaryKey = 'id';
     protected $returnType = 'object';
-    protected $allowedFields = ['os', 'tipo', 'quantidade', 'especie', 'alt_arv', 'alt_copa', 'diametro', 'perimetro', 'local'];
+    protected $allowedFields = ['os', 'tipo', 'quantidade', 'especie', 'alt_arv', 'alt_copa', 'diametro', 'perimetro', 'local', 'file_path'];
     protected $useTimestamps = true;
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
