@@ -12,8 +12,7 @@
         Criado em: <?= dateSwap($p->created_at); ?>, atualizado em: <?= dateSwap($p->updated_at); ?></li>
     <?php if (isset($p->image)) { ?>
         <li class="list-group-item">
-            <?= '<object data="data:' . $p->image->getMimeType() . ';base64,' . base64_encode(file_get_contents($p->file_path)) . '" width="100%" height="800vh" 
-				class="mx-auto" type="application/pdf"> </object>'; ?></li>
+            <img src="<?=$p->file_path?>" alt="Foto" width="100%" height="auto">
     <?php } ?>
     <li class="list-group-item">
         <a href="<?= base_url('podas/edit/' . $p->id); ?>" class="btn btn-info">Editar as informações <i

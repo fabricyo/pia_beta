@@ -12,4 +12,8 @@ class Home extends BaseController
 	public function login(){
 	    load_view('home/login', ['var1' => 'Trojan']);
     }
+
+    public function get_image($url){
+
+    }
 }

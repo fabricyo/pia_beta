@@ -68,10 +68,9 @@ class PodasController extends BaseController
                 ///Checa se há foto
                 $file_raw = $_FILES['image'];
                 if($file_raw['size'] > 0){
-                    $file = new \CodeIgniter\Files\File($file_raw['tmp_name']);
-                    $ext = explode("/", $file->getMimeType())[1];
-                    compressImage($file_raw['tmp_name'], WRITEPATH."uploads/podas/poda__".$id_poda.".jpeg", 70);
-                    $podas->update($id_poda, ['file_path' => WRITEPATH."uploads/podas/poda__".$id_poda.".jpeg"]);
+                    compressImage($file_raw['tmp_name'], ROOTPATH.'public/uploads/'."podas/poda__".$id_poda.".jpeg", 65);
+                    correctImageOrientation(ROOTPATH.'public/uploads/'."podas/poda__".$id_poda.".jpeg");
+                    $podas->update($id_poda, ['file_path' => base_url("uploads/podas/poda__$id_poda.jpeg")]);
                 }
                 setSystemMsg('success', "Poda cadastrada com sucesso!");
                 $url = '/podas/create';
