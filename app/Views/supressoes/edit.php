@@ -128,7 +128,7 @@
                     </div>
                 </div>
                 <button type="submit" class="btn btn-success mt-3" name="submit"><i class="fas fa-pencil-alt"></i> Editar Supressão</button>
-                <a href="<?= base_url('supressoes/details/' . $p->id); ?>" class="btn btn-warning mt-3"><i class="fas fa-times"></i> Cancelar edição</a>
+                <a href="<?= base_url('supressoes/details/' . $s->id); ?>" class="btn btn-warning mt-3"><i class="fas fa-times"></i> Cancelar edição</a>
                 <?= form_close() ?>
             </div>
         </div>
